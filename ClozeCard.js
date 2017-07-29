@@ -28,12 +28,5 @@ var ClozeCard = function(text, cloze) {
 };
 
 
-var test = new ClozeCard("i love  apples", "apple");
-var test2 = ClozeCard("i love zebras", "zebras");
-var test3 = ClozeCard("i love to dig", "love to");
-console.log(test);
-console.log(test2);
-console.log(test3);
-console.log(typeof test);
-console.log(typeof test2);
+
 module.exports = ClozeCard;
